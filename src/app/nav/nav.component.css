@@ -5,6 +5,8 @@ header .logo {
     font-weight: bold;
     color: rgb(243, 158, 219);
     text-decoration: none;
+    margin-left: -150px;
+    font-size: 25px;
 }
 header nav {
     justify-self: right;
