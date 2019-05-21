@@ -1,10 +1,9 @@
 header {
     background: #7c0168;
-    margin: -15px;
 }
 header .logo {
     font-weight: bold;
-    color: white;
+    color: rgb(243, 158, 219);
     text-decoration: none;
 }
 header nav {
@@ -12,8 +11,7 @@ header nav {
 }
 header nav ul {
     list-style-type: none;
-    margin-top: -10p;
-    padding: 20px;
+    
 }
 header nav ul li {
     float: right;
@@ -21,10 +19,9 @@ header nav ul li {
 header nav ul li a {
     padding: 1.5em;
     text-transform: uppercase;
-    font-size: 0.8em;
-    color: white;
+    color: rgb(243, 158, 219);
     text-decoration: none;
 }
 header nav ul li a:hover {
-    color: rgb(190, 252, 5);
+    color: white;
 }
