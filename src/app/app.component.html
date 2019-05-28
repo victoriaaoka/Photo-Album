@@ -1,2 +1,9 @@
 <app-nav></app-nav>
-<app-home></app-home>
+<p>
+    Hey there! Welcome to The Album!
+</p>
+<ul *ngFor="let data of httpdata">
+    <img src={{data.urls.full}} />
+</ul>
+
+<router-outlet></router-outlet>
