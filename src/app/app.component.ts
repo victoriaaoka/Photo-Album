@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'photo-album';
+  constructor(private http: HttpClient) { }
+  httpdata;
+  ngOnInit() {
+    this.http.get("https://api.unsplash.com/photos/?client_id=YOUR-UNSPLUSH-ACCESS-KEY")
+      .subscribe(data => this.displaydata(data))
+  }
+  displaydata(data) {
+    this.httpdata = data;
+    console.log(data);
+  }
 }
 
