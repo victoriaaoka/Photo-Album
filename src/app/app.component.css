@@ -10,3 +10,9 @@ img{
 p{
     margin-left: 100px;
 }
+#caption{
+    width: 320px;
+    font-size:60%;
+    text-align: right;
+    margin-left: 80px;
+}
