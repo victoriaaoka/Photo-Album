@@ -4,14 +4,45 @@
 </p>
 <table>
     <tr>
-        <td><img src={{httpdata[0].urls.full}} /></td>
-        <td><img src={{httpdata[1].urls.full}} /></td>
-        <td><img src={{httpdata[2].urls.full}} /></td>
+        <td>
+            <div id="caption">
+                <img src={{httpdata[0].urls.full}} />
+                Photo by {{httpdata[0].user.name}} on Unsplash
+            </div>
+        </td>
+        <td>
+            <div id="caption">
+                <img src={{httpdata[1].urls.full}} />
+                Photo by {{httpdata[1].user.name}} on Unsplash
+            </div>
+        </td>
+        <td>
+            <div id="caption">
+                <img src={{httpdata[2].urls.full}} />
+                Photo by {{httpdata[2].user.name}} on Unsplash
+            </div>
+        </td>
     </tr>
+
     <tr>
-        <td><img src={{httpdata[3].urls.full}} /></td>
-        <td><img src={{httpdata[4].urls.full}} /></td>
-        <td><img src={{httpdata[5].urls.full}} /></td>
+        <td>
+            <div id="caption">
+                <img src={{httpdata[3].urls.full}} />
+                Photo by {{httpdata[3].user.name}} on Unsplash
+            </div>
+        </td>
+        <td>
+            <div id="caption">
+                <img src={{httpdata[4].urls.full}} />
+                Photo by {{httpdata[4].user.name}} on Unsplash
+            </div>
+        </td>
+        <td>
+            <div id="caption">
+                <img src={{httpdata[5].urls.full}} />
+                Photo by {{httpdata[5].user.name}} on Unsplash
+            </div>
+        </td>
     </tr>
 </table>
 <router-outlet></router-outlet>
