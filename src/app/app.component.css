@@ -2,7 +2,11 @@ ul{
     list-style: none;
 }
 img{
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
+    width: 320px;
+    height: 290px;
+    margin-left: 80px;
+    padding: 20px;
+}
+p{
+    margin-left: 100px;
 }
