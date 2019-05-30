@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+}
+img{
+    width: 320px;
+    height: 290px;
+    margin-left: 80px;
+    padding: 20px;
+}
+p{
+    margin-left: 100px;
+}
+#caption{
+    width: 320px;
+    font-size:60%;
+    text-align: right;
+    margin-left: 80px;
+}
+table{
+    margin-top: -20px;
+}
