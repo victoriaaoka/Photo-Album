@@ -1,6 +1,3 @@
-ul{
-    list-style: none;
-}
 img{
     width: 320px;
     height: 290px;
@@ -8,13 +5,13 @@ img{
     padding: 20px;
 }
 p{
-    margin-left: 100px;
+    margin-left: 175px;
 }
 #caption{
     width: 320px;
     font-size:60%;
     text-align: right;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 table{
     margin-top: -20px;
