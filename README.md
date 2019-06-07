@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 It uses the [unsplash](https://unsplash.com/) api.
 
-It is deployed on Github pages and can be found at: https://victoriaaoka.github.io/Photo-Album/
+It is deployed on Github pages and can be found [here](https://victoriaaoka.github.io/Photo-Album/)
 
 ## Development server
 
